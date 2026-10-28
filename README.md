@@ -6,9 +6,9 @@
 
 1. setup and random seeds,
 2. survey columns, input sets MENN1–MENN3 and the target,
-3. the ENN for classification (adapted from Nourani et al., 2020, Eq. 8-15; full formulation in Appendix A of the paper), the ablated ENN without hormones and the five-seed ensemble,
+3. the ENN for classification (adapted from Nourani et al., 2020, Eq. 8-15; full formulation in Appendix B of the paper), the ablated ENN without hormones and the five-seed ensemble,
 4. repeated nested cross-validation (5 × 5 outer folds, 3-fold inner tuning) for the ENN, the ablated ENN, logistic regression, a decision tree and a random forest,
-5. results (mean ± SD and 95% confidence intervals based on the corrected resampled t-statistic of Nadeau & Bengio, 2003) and paired tests (corrected resampled t-test and Wilcoxon test with Holm correction).
+5. results (mean ± SD and 95% confidence intervals based on the corrected resampled t-statistic) and paired tests (corrected resampled t-test and Wilcoxon test with Holm correction).
 
 ## Usage
 
